@@ -9,3 +9,11 @@ class Lorry implements Car{
     print('Vroooum!!!');
   }
 }
+
+// Create a class that overrides an inherited method
+class Truck extends Lorry {
+  @override
+  void startEngine() {
+    print('Roooaaaam!!!');
+  }
+}
